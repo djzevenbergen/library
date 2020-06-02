@@ -2959,6 +2959,67 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "Library",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Books\\Edit.cshtml",
+      "TargetPath": "Views\\Books\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Books\\Index.cshtml",
+      "TargetPath": "Views\\Books\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Books\\Delete.cshtml",
+      "TargetPath": "Views\\Books\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Authors\\Create.cshtml",
+      "TargetPath": "Views\\Authors\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Books\\AddAuthor.cshtml",
+      "TargetPath": "Views\\Books\\AddAuthor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Authors\\Index.cshtml",
+      "TargetPath": "Views\\Authors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Account\\Index.cshtml",
+      "TargetPath": "Views\\Account\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Books\\Create.cshtml",
+      "TargetPath": "Views\\Books\\Create.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
