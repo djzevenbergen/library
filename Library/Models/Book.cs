@@ -13,7 +13,7 @@ namespace Library.Models
     public string Title { get; set; }
     public string Author { get; set; }
     public virtual ApplicationUser User { get; set; }
-
+    // public virtual Copy Copy { get; set; }
     public ICollection<AuthorBook> Authors { get; }
   }
 }
