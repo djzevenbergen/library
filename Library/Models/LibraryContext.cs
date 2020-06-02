@@ -9,6 +9,6 @@ namespace Library.Models
     public DbSet<Book> Books { get; set; }
     public DbSet<AuthorBook> AuthorBook { get; set; }
 
-    public ToDoListContext(DbContextOptions options) : base(options) { }
+    public LibraryContext(DbContextOptions options) : base(options) { }
   }
 }
