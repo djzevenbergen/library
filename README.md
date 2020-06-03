@@ -3,7 +3,7 @@
 
 #### _This is an Independent Project at Epicodus using web application framework called ASP.NET Core MVC and Entity Framework Core._
 
-#### Made By **Nitun Data and _**
+#### Made By **Nitun Data and DJ Zevenbergen_**
 #### June 3, 2020
 
 ### Description
@@ -108,7 +108,7 @@ Please contact me with any suggestions or questions at nitun.2@gmail.com. Thank 
 
 This software is licensed under the MIT license.
 
-Copyright © 2020 **_Nitun Datta_**
+Copyright © 2020 **_Nitun Datta and DJ Zevenbergen_**
 
 
 
