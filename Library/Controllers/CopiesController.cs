@@ -44,14 +44,16 @@ namespace Library.Controllers
       var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
       var currentUser = await _userManager.FindByIdAsync(userId);
 
-      var userCopy = _db.Copies.firstOrDefault(entry => entry.BookId == id) && entry.Available == true;
+      //var userCopy = _db.Copies.FirstOrDefault(entry => entry.BookId == id);// && entry.Available == true;
 
-      if (userId != 0)
+
+      int uId = int.Parse(userId);
+      if (uId != 0)
       {
         DateTime checkoutDate = DateTime.Now;
         DateTime dueDate = checkoutDate.AddDays(8);
 
-        _db.CopyPatron.Add(new CopyPatron() { PatronId = userId, CopyId = userCopy.CopyId, CheckoutDate = checkoutDate, DueDate = dueDate });
+        _db.CopyPatron.Add(new CopyPatron() { PatronId = uId, CopyId = userCopy.CopyId, CheckoutDate = checkoutDate, DueDate = dueDate });
       }
       _db.SaveChanges();
       //go through the copies table and find the copyid of the first available copy with the desired book id

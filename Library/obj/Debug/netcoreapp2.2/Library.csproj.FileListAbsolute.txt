@@ -78,3 +78,5 @@ C:/dev-project/epicodus_code/week12AdvanceDatabase/Library.Solution/Library/obj/
 /Users/davidzevenbergen/Desktop/epicodus-csharp-wk5/library/Library/obj/Debug/netcoreapp2.2/Razor/Views/Patrons/Create.g.cshtml.cs
 /Users/davidzevenbergen/Desktop/epicodus-csharp-wk5/library/Library/obj/Debug/netcoreapp2.2/Razor/Views/Patrons/Details.g.cshtml.cs
 /Users/davidzevenbergen/Desktop/epicodus-csharp-wk5/library/Library/obj/Debug/netcoreapp2.2/Razor/Views/Patrons/Index.g.cshtml.cs
+/Users/davidzevenbergen/Desktop/epicodus-csharp-wk5/library/Library/obj/Debug/netcoreapp2.2/Razor/Views/Patrons/Delete.g.cshtml.cs
+/Users/davidzevenbergen/Desktop/epicodus-csharp-wk5/library/Library/obj/Debug/netcoreapp2.2/Razor/Views/Patrons/Edit.g.cshtml.cs
