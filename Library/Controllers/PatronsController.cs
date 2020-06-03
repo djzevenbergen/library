@@ -31,6 +31,16 @@ namespace Library.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+    public ActionResult Details(int id)
+    {
+      var thisPatron = _db.Patrons
+          .Include(patron => patron.Copies)
+          .ThenInclude(join => join.Copy)
+          .FirstOrDefault(patron => patron.PatronId == id);
+      return View(thisPatron);
+    }
+
+
   }
 
 }

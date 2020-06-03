@@ -62,6 +62,8 @@ namespace Library.Controllers
 
     public ActionResult Details(int id)
     {
+      var copiesOfBook = _db.Copies.Where(entry => entry.BookId == id).ToList();
+      ViewBag.numberOfCopies = copiesOfBook.Count();
       var thisBook = _db.Books
           .Include(book => book.Authors)
           .ThenInclude(join => join.Author)
@@ -132,7 +134,6 @@ namespace Library.Controllers
     }
 
     [HttpGet("/search")]
-
     public ActionResult Search(string search, string searchParam)
     {
 

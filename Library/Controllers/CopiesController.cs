@@ -30,13 +30,34 @@ namespace Library.Controllers
     //updated Index method
     public async Task<ActionResult> Index()
     {
-      // var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-      // var currentUser = await _userManager.FindByIdAsync(userId);
-      // var userBooks = _db.Books.Where(entry => entry.User.Id == currentUser.Id).ToList();
+      var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+      var currentUser = await _userManager.FindByIdAsync(userId);
+      var userBooks = _db.Books.Where(entry => entry.User.Id == currentUser.Id).ToList();
       var copies = _db.Copies.ToList();
       return View(copies);
     }
 
+    public ActionResult Checkout(int id)
+    {
+      var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+      var currentUser = await _userManager.FindByIdAsync(userId);
+      var userCopy = _db.Copies.firstOrDefault(entry => entry.BookId == id);
+
+      if (UserId != 0)
+      {
+        DateTime checkoutDate = new DateTime();
+        DateTime dueDate = new DateTime();
+        _db.CopyPatron.Add(new CopyPatron() { PatronId = userId, BookId = id });
+      }
+      _db.SaveChanges();
+      //go through the copies table and find the copyid of the first available copy with the desired book id
+      //change that copy's available colummn to false
+      //
+      //when someone checks out a book, the checkoutdate column is set equal to getdatetime and the duedate is set for getdatetime plus 8 days
+      //make a copypatron with copyid, userid, and duedate
+      //
+      //when
+    }
 
     public ActionResult Create()
     {
@@ -58,8 +79,8 @@ namespace Library.Controllers
 
     public ActionResult Details(int id)
     {
-      var thisBook = _db.Books
-          .Include(book => book.Authors)
+      var thisBook = _db.Copies
+          .Include(copy => copy.Available)
           .ThenInclude(join => join.Author)
           .FirstOrDefault(book => book.BookId == id);
       return View(thisBook);
@@ -126,3 +147,4 @@ namespace Library.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+  }

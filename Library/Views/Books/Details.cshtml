@@ -7,10 +7,15 @@
 <h2>Book Details</h2>
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Title): @Html.DisplayFor(model => model.Title)</h3>
+<h3>Available Copies: @ViewBag.numberOfCopies;
+@if(ViewBag.numberOfCopies > 0)
+{
+  <p>@Html.ActionLink("Checkout", "Checkout", new { id = Model.BookId })</p>
+}
 
 @if(@Model.Authors.Count == 0)
 {
-  <p>This authors does not belong to any categories</p>
+  <p>This book does not belong to any Authors</p>
 }
 else
 {
