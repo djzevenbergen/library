@@ -2961,6 +2961,11 @@
   "RootNamespace": "Library",
   "Documents": [
     {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Books\\Details.cshtml",
+      "TargetPath": "Views\\Books\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"

@@ -32,3 +32,4 @@ C:\dev-project\epicodus_code\week12AdvanceDatabase\Library.Solution\Library\obj\
 C:\dev-project\epicodus_code\week12AdvanceDatabase\Library.Solution\Library\obj\Debug\netcoreapp2.2\Library.RazorTargetAssemblyInfo.cs
 C:\dev-project\epicodus_code\week12AdvanceDatabase\Library.Solution\Library\obj\Debug\netcoreapp2.2\Library.Views.pdb
 C:\dev-project\epicodus_code\week12AdvanceDatabase\Library.Solution\Library\obj\Debug\netcoreapp2.2\Library.csproj.CopyComplete
+C:\dev-project\epicodus_code\week12AdvanceDatabase\Library.Solution\Library\obj\Debug\netcoreapp2.2\Razor\Views\Books\Details.cshtml.g.cs
