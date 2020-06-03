@@ -10,7 +10,7 @@
 <h3>Available Copies: @ViewBag.numberOfCopies;
 @if(ViewBag.numberOfCopies > 0)
 {
-  <p>@Html.ActionLink("Checkout", "Checkout", new { id = Model.BookId })</p>
+  <p>@Html.ActionLink("Checkout", "Copies", new { id = Model.BookId })</p>
 }
 
 @if(@Model.Authors.Count == 0)

@@ -3,12 +3,13 @@
 }
 
 @using System.Security.Claims
-
+@using Library.Models
 <h2>Authentication with Identity</h2>
 <hr />
 @if (User.Identity.IsAuthenticated)
 {
     <p>Hello @User.Identity.Name!</p>
+    
     //@using (Html.BeginForm("LogOff", "Account"))
     @using (Html.BeginForm("LogOff", "Index","Home"))
     {
