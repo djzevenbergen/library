@@ -158,7 +158,13 @@ namespace Library.Controllers
           return View(matchesAuthor);
         }
       }
-      return View();
+      else
+      {
+        var model = from m in _db.Books select m;
+        List<Book> allBooks = new List<Book> { };
+        allBooks = model.ToList();
+        return View(allBooks);
+      }
     }
 
   }
