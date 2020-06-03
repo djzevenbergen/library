@@ -3001,6 +3001,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Shared\\Header.cshtml",
+      "TargetPath": "Views\\Shared\\Header.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -3023,6 +3028,11 @@
     {
       "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Books\\Create.cshtml",
       "TargetPath": "Views\\Books\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\dev-project\\epicodus_code\\week12AdvanceDatabase\\Library.Solution\\Library\\Views\\Books\\Search.cshtml",
+      "TargetPath": "Views\\Books\\Search.cshtml",
       "FileKind": "mvc"
     }
   ],

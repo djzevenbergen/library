@@ -1,0 +1,23 @@
+
+
+<h1>Thanks for using the library</h1>
+<form action="/search" method="get">
+  <label for="search">Search</label>
+  <input type="text" name="search">
+  @Html.RadioButton("searchParam", "Book", new { @checked = "checked" })
+  <label for="searchParam">Search By Book</label>
+  @Html.RadioButton("searchParam", "Author")
+  <label for="searchParam">Search by Author</label>
+  <button type="submit">Search</button>
+</form>
+
+
+@* <form action="/stylistsearch" method="get">
+  <label for="searchStylist">Search Stylists</label>
+  <input type="text" name="searchStylist">
+  @Html.RadioButton("searchStylistParam", "First", new { @checked = "checked" })
+  <label for="searchStylistParam">Search By First Name</label>
+  @Html.RadioButton("searchStylistParam", "Last")
+  <label for="searchStylistParam">Search by Last Name</label>
+  <button type="submit">Search</button>
+</form> *@
